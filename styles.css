@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 60%;
+    margin: 60px auto;
+}
+
+.photo {
+    max-width: 100%;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigate {
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.navigate:hover {
+    opacity: 0.7;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photographer {
+    font-weight: normal;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+.like {
+    border: 0;
+    background-color: inherit;
+    padding: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.like:hover {
+    opacity: 0.7;
+}
+
+/*# sourceMappingURL=styles.css.map */
